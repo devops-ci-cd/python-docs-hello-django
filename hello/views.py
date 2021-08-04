@@ -2,4 +2,4 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 def hello(request):
-    return HttpResponse("Hello, World! <br> CloudX solution")
+    return HttpResponse("Hello, World! <br> CloudX solution <br> from center-us location")
