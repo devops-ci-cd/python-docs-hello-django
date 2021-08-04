@@ -25,8 +25,8 @@ SECRET_KEY = '12345'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ['WEBSITE_HOSTNAME']] if 'WEBSITE_HOSTNAME' in os.environ else [] + ['tm-profile.trafficmanager.net',]
-
+#ALLOWED_HOSTS = [os.environ['WEBSITE_HOSTNAME']] if 'WEBSITE_HOSTNAME' in os.environ else [] + ['tm-profile.trafficmanager.net',]
+ALLOWED_HOSTS = ['*',]
 
 # Application definition
 
